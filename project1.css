@@ -673,22 +673,31 @@ footer{
 .box1head,.box2head,.box3head{
   color: whitesmoke;
   font-size: 20px;
-
+  display: flex;
 }
+.nlogo{
+  display: inline-block;
+  margin-top: -5px;
+}
+
+
 .fboxes{
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   width: 100%;
   padding-bottom: 20px;
   border-bottom: 2px solid var(--clr3);
 }
 .fb{
   font-size: 20px;
-  color: var(--clr3);
+  color: var(--clr4);
   padding-right: 15px;
+}
+.box1text,.box2text,.copy{
+  color:var(--clr4);
 }
 
 @media only screen and (min-width:1020px) and (max-width:1090px) {
