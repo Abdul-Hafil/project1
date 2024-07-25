@@ -85,7 +85,7 @@ input+div{
     cursor: pointer;
     font-size: 11px;
     padding-right: 10px;
-    padding-top: 10px;
+    /* padding-top: 10px; */
     letter-spacing: 1.3px;
 }
 /* <a> tag hover--------------------------------------- */
@@ -826,9 +826,9 @@ footer{
         padding-left:50px ;
       }
       .submenu{
-        border-left: 4px solid var(--clr3);
-        padding-left: 5px;
-        border-right: none;
+        /* border-left: 4px solid var(--clr3); */
+        /* padding-left: 5px; */
+        /* border-right: none; */
         font-size: 20px;
         color: whitesmoke;
       }
@@ -941,10 +941,9 @@ footer{
     padding-left:40px ;
   }   
   .submenu{
-    border-left: 4px solid var(--clr3);
-    padding-left: 5px;
+    
     font-size: large;
-    border-right: none;
+   
   }
  .bsc{
   font-size: 8px;
