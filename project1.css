@@ -1068,9 +1068,17 @@ footer{
   }
   .bgimage{
     height: 90px;}
-
+    h1,.acad{
+      font-size: 40px;
+    }
+    h1{
+      left: 0;
+      bottom: 60px;
+    }
+    .acad{
+      bottom:10px;
+    }
 }
-
 @media only screen and (max-width:450px){
 .nlogo{
   height: 30px;
@@ -1099,15 +1107,5 @@ footer{
 }
 .view{
   height: 65vh;
-}
-h1,.acad{
-  font-size: 40px;
-}
-h1{
-  left: 0;
-  bottom: 60px;
-}
-.acad{
-  bottom:10px;
 }
 }
