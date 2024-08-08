@@ -999,7 +999,7 @@ footer{
     width: 90%;
   }
   .logo{
-    color: #000;
+    background-color: aqua;
   }
 
   .apply{
@@ -1083,7 +1083,7 @@ footer{
   font-size: 16px;
   letter-spacing: 2px;
   padding-left:10px ;
-background-color: aqua;
+
 }
 .bold>.arrow{
   display: none;
