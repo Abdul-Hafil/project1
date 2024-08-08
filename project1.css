@@ -161,7 +161,6 @@ h1{
     bottom: 150px;
     left: 8%;
     transition: 1s;
-    cursor: pointer;
     padding: 10px;
 }
 .acad{
@@ -175,7 +174,6 @@ h1{
     transition: 1s;
     font-weight: bold;
     padding: 10px;
-    cursor: pointer;
 }
 
 .chef{
@@ -899,6 +897,7 @@ footer{
       .missiontext{
         font-size: 12px;
       }
+      
 }
 @media only screen and  (max-width:560px) {
   .box{
@@ -1071,6 +1070,7 @@ footer{
     height: 90px;}
 
 }
+
 @media only screen and (max-width:450px){
 .nlogo{
   height: 30px;
@@ -1080,7 +1080,11 @@ footer{
   font-size: 16px;
   letter-spacing: 2px;
   padding-left:10px ;
+  color: #000;
 
+}
+.bold>.arrow{
+  display: none;
 }
 .bgimage{
   height: 50px;
