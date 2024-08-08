@@ -826,9 +826,6 @@ footer{
         padding-left:50px ;
       }
       .submenu{
-        /* border-left: 4px solid var(--clr3); */
-        /* padding-left: 5px; */
-        /* border-right: none; */
         font-size: 20px;
         color: whitesmoke;
       }
@@ -903,7 +900,7 @@ footer{
         font-size: 12px;
       }
 }
-@media only screen and (max-width:450px) and (max-width:560px) {
+@media only screen and  (max-width:560px) {
   .box{
     width: 100%;
   }
@@ -1065,166 +1062,40 @@ footer{
     width: 100%;
     border: 2px solid black;
   }
+  .bigimg{
+    width: 100%;
+    height: 90vh;
+  }
+  .view{
+    height: 90vh;
+  }
 }
 @media only screen and (max-width:450px){
-  .box{
-    width: 100%;
-  }
-  .programme{
-    padding: 0 20px 0 20px;
-    font-size: medium;
-  }
-  .bold{
-    font-size: 16px;
-    padding-bottom: 10px;
-  }
-  .div,.next,.partners{
-    display: none;
-  }
-  .admission{
-    height: 400px;
-    overflow-y: scroll;
-   }
-   .admission::-webkit-scrollbar{
-    display: none;
-   }
-  input+div{
-    background-color: var(--clr5);
-    top: 51px;
-    left: -100%;
-    width: 50%;
-    border-radius: 0 20px 20px 0;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding:20px ;
-    transition: 2s;
-    color: var(--clr3);
-    gap: 20px;
-    font-size: 30px;
-    padding-left:40px ;
-  }   
-  .submenu{
-    
-    font-size: large;
-   
-  }
- .bsc{
-  font-size: 8px;
- }
-  .btn1:hover{
-    border: 1px solid var(--clr1);
-  }
-  .logo{
-    font-size: medium;
-  }
-  .vtext,.chef{
-    font-size: 10px;
-    width: 80px;
-  }
-  .vtext{
-    left: 20px;
-    top: 70px;
-    border-bottom: none;
-    border-left: 4px solid var(--clr3);
-    padding-left: 4px;
-  }
-  .chef{
-    left: 20px;
-    top: 150px;
-    width: 80px;
-  }
-  .acad h1{
-    font-size: 3.5rem;
-  }
-  .bar{
-    display: block;
+.nlogo{
+  height: 30px;
+  width: 30px;
 }
-  .box{
-    width: 350px;
-  }
-  .opn{
-    right: 10px;
-    font-size: 10px;
-    width: 100px;
-  }
-  h1{
-    bottom: 170px;
-    right: 50%;
-    z-index: 2;
-    font-size: 3rem;
-    color: var(--clr3);
-    text-shadow: -1px -1px 2px var(--clr2),1px 1px 2px var(--clr2);
-  }
-  .acad{
-    bottom: 100px;
-    left: 30px;
-    font-size: 3rem;
-    text-shadow: -1px -1px 2px var(--clr2),1px 1px 2px var(--clr2);
-  }
-  .op,.eb{
-    width: 90%;
-  }
-  .bgimage{
-    height: 90px;
-  }
-  .apply{
-    flex-direction: column;
-    height: unset;
-    width: 100%;
-  }
-  .radio{
-    width: 60%;
-  }
-  .li{
-    width: 95%;
-  }
-  .content{
-    width:100% ;
-  }
-  .radio{
-    width: 100%;
-  }
-  .radio>label{
-    width: 100%;
-  }
-  .cp,.op,.eb,.dura{
-    height: 200px;
-    overflow-y: scroll;
-  }
-  h5,h4,h2{
-    font-size: 15px;
-    border: none;
-    width: unset;
-    color: var(--clr1);
-  }
-  .arrow{
-    display: none;
-  }
-  .dream{
-    flex-direction: column;
-    padding: 15px;
-  }
-  .awards{
-    width: 95%;
-  }
-  .mission{
-    width: 100%;
-    font-size: medium;
-  }
-  .dm{
-    font-size: 14px;
-  }
-  .about{
-    padding: 0;
-    padding: 15px;
-  }
-  .awards{
-    width: 100%;
-    justify-content: center;
-    gap: 10px;
-  }
-  .a1{
-    width: 100%;
-    border: 2px solid black;
-  }
+.logo{
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding-left:10px ;
+
+}
+.bigimg{
+  width: 100%;
+  height: 65vh;
+}
+.view{
+  height: 65vh;
+}
+h1,.acad{
+  font-size: 40px;
+}
+h1{
+  left: 0;
+  bottom: 60px;
+}
+.acad{
+  bottom:10px;
+}
 }
