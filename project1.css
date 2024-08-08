@@ -998,6 +998,9 @@ footer{
   .op,.eb{
     width: 90%;
   }
+  .logo{
+    color: #000;
+  }
 
   .apply{
     flex-direction: column;
@@ -1080,7 +1083,7 @@ footer{
   font-size: 16px;
   letter-spacing: 2px;
   padding-left:10px ;
-  color: #000;
+
 
 }
 .bold>.arrow{
