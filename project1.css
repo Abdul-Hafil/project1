@@ -1086,6 +1086,9 @@ footer{
 
 
 }
+.logo{
+  color: #000;
+}
 .bold>.arrow{
   display: none;
 }
