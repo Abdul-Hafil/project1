@@ -998,6 +998,7 @@ footer{
   .op,.eb{
     width: 90%;
   }
+
   .apply{
     flex-direction: column;
     height: unset;
@@ -1079,6 +1080,8 @@ footer{
   font-size: 16px;
   letter-spacing: 2px;
   padding-left:10px ;
+
+
 }
 .bold>.arrow{
   display: none;
