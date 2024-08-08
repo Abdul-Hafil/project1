@@ -999,9 +999,7 @@ footer{
   .op,.eb{
     width: 90%;
   }
-  .bgimage{
-    height: 90px;
-  }
+
   .apply{
     flex-direction: column;
     height: unset;
@@ -1032,9 +1030,6 @@ footer{
     width: unset;
     color: var(--clr1);
   }
-  .arrow{
-    display: none;
-  }
   .dream{
     flex-direction: column;
     padding: 15px;
@@ -1064,11 +1059,17 @@ footer{
   }
   .bigimg{
     width: 100%;
-    height: 90vh;
+    height: 70vh;
   }
   .view{
-    height: 90vh;
+    height: 70vh;
   }
+  .bold>.arrow{
+    display: none;
+  }
+  .bgimage{
+    height: 90px;}
+
 }
 @media only screen and (max-width:450px){
 .nlogo{
@@ -1080,6 +1081,13 @@ footer{
   letter-spacing: 2px;
   padding-left:10px ;
 
+}
+.bgimage{
+  height: 50px;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
 .bigimg{
   width: 100%;
