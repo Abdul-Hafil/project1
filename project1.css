@@ -436,6 +436,9 @@ h5{
 body:has(#link1:checked) .op{
   display: block;
 }
+body:has(#link1:checked) .cp{
+  display: none;
+}
 body:has(#link2:checked) .eb{
   display: block;
 }
@@ -450,9 +453,6 @@ body:has(#link3:checked) .cp{
 }
 body:has(#link4:checked) .cp{
   display: block;
-}
-body:has(#link1:checked) .cp{
-  display: none;
 }
 .smallimg1{
   height: 60px;
